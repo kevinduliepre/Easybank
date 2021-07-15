@@ -3,9 +3,6 @@
 }
 
 .article {
-  &__content {
-  }
-
   &__grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -27,7 +24,7 @@
     transition: all 150ms ease-in-out;
 
     &:hover {
-      transform: scale(1.02 );
+      transform: scale(1.02);
       box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
     }
   }
